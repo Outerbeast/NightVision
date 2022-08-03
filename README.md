@@ -9,19 +9,26 @@ view mode, which can used with standard flash light key. It is dependant on the 
 
 ## Map script install instructions:                                         
 
-* 1. Extract the map script 'scripts/maps/nvision.as' to 'svencoop_addon/scripts/maps'.                 
-* 2. Add to main map script the following code:                            
-                                                                        
+* 1. Extract the map script 'scripts/maps/nvision.as' to 'svencoop_addon/scripts/maps'.         
+* 2. Add to main map script the following code:
+                          
 (a) `#include "opfor/nvision"`                                           
                                                                         
 (b) in function `MapInit()`:                                            
-    `NightVision::Enable()`;                                              
+    `NightVision::Enable();`
 
+The code should look like this:
+```#include "opfor/nvision"
+
+void MapInit()
+{
+    NightVision::Enable();
+}
+```
 # Customisation
 
 To change color put your rgb values in like this:                   
-`NightVision::Enable( Vector(0,255,0) )`
-                              
+`NightVision::Enable( Vector(0,255,0) )`                       
 
 Usage of OF NightVision:                                                 
 
