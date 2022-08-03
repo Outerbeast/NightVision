@@ -48,7 +48,7 @@ void Precache()
 
 void Enable(Vector vecNVColorIn = NV_GREEN, string strEnabledMaps = "")
 {
-	if( blEnabled || g_EngineFuncs.CVarGetFloat( "mp_flashlight" ) <= 0.0f )
+	if( blEnabled )
 		return;
 
 	if( strEnabledMaps != "" )
