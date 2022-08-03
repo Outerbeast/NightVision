@@ -18,7 +18,8 @@ view mode, which can used with standard flash light key. It is dependant on the 
     `NightVision::Enable();`
 
 The code should look like this:
-```#include "opfor/nvision"
+```
+#include "opfor/nvision"
 
 void MapInit()
 {
