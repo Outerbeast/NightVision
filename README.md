@@ -33,5 +33,5 @@ To change color put your rgb values in like this:
 
 Usage of OF NightVision:                                                 
 
-Simply use standard flash light key to switch the OF NightVision view mode on and off    									
+Simply use standard flash light key to switch the OF NightVision view mode on and off.
 You can use the condole command `nvision_mode` to switch between night vision and normal flashlight                        
