@@ -5,7 +5,7 @@ Base script "nvision" by Neo, updates by Outerbeast
 */
 #include "../maps/opfor/nvision"
 // These maps already have nightvision enabled via mapscript or shouldn't use nightivision
-string strBlackList = "aomdc;ast;of_utbm;ss;evasion;nw;shadv;bootsquad;want;sc5x_bonus;zombie_nights_;shitty_pubg";
+string strBlackList = "aomdc;ast;of_utbm;ss;evasion;htc;nw;shadv;bootsquad;want;sc5x_bonus;zombie_nights_;shitty_pubg";
 Vector vecCustomColor = Vector( 0, 255, 0 );
 
 CCVar cvarNVDisable( "nvision_disable", 0, "Disable nightivision", ConCommandFlag::AdminOnly );
