@@ -1,0 +1,18 @@
+@PointClass size(-8 -8 -8, 8 8 8) color(0 255 0) = info_nvision : "Night Vision"
+[
+    targetname(target_source) : "Name"
+    target(target_destination) : "Target"
+    rendercolor(color255) : "Custom colour (R G B)"
+    renderamt(integer) : "Night vision radius (1 - 255)" : 40
+    view_ofs(string) : "Night vision position offset (X Y Z)"
+    noise1(sound) : "On Sound" : "player/hud_nightvision.wav"
+    noise2(sound) : "Off Sound" : "items/flashlight2.wav"
+
+    spawnflags(flags) =
+	[
+		1: "Start Off" : 0
+		2: "Activator Only" : 0
+		4: "Disable Console Command" : 0
+		8: "Don't Boost Illumination" : 0
+	]
+]
