@@ -7,7 +7,7 @@ If you want a plugin version to use as a server addon, see [Nero's Custom NightV
 
 ## Installation                                       
 
-[Download](https://github.com/Outerbeast/NightVision/releases/download/v1.6/nightvision.zip) the archive from the Releases section and extract into your map's dir/`svencoop_addon`.
+[Download](https://github.com/Outerbeast/NightVision/archive/refs/heads/main.zip) the archive from the Releases section and extract into your map's dir/`svencoop_addon`.
 
 To enable it in your map, either do:
                           
